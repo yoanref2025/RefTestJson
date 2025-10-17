@@ -1,7 +1,7 @@
 { 
 	"users": [
 		{"uid":"3d6cd2c2-be38-40dd-9f7e-05bfc28107b9","first_name":"Charles","last_name":"DIDIER","todos":[
-			{"uuid":"71193465-5c5d-4ec5-b65e-46779df7bd25","title":"TODO 1","desc":"Todo description 1"},
+			{"uid":"71193465-5c5d-4ec5-b65e-46779df7bd25","title":"TODO 1","desc":"Todo description 1"},
 			{"uid":"6917a623-9a0b-4dec-8412-a9ec775818ed","title":"TODO 2","desc":"Todo description 2"},
 			{"uid":"83f13b47-665e-4d6f-b4d7-0e1a05c4b437","title":"TODO 3","desc":"Todo description 3"}] 
 		}, 
