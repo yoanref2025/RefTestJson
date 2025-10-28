@@ -21,45 +21,35 @@
 		{
 			"uid":"ddf8cc53-7956-4ff1-9208-545c02894574",
 			"couleur_primaire":"#4CAF50",
-			"couleur_primaire_variant":"#4CAF50",
 			"couleur_secondaire":"#214B22",
-			"couleur_secondaire_variant":"#214B22",
 			"couleur_texte_primaire":"#FFFFFFFF",
 			"couleur_texte_secondaire":"#FFFFFFFF"
 		}, 
 		{
 			"uid":"2004b4de-1a44-4443-8fcc-ca603ddbd31e",
 			"couleur_primaire":"#2196F3",
-			"couleur_primaire_variant":"#2196F3",
 			"couleur_secondaire":"#0C395D",
-			"couleur_secondaire_variant":"#0C395D",
 			"couleur_texte_primaire":"#FF000000",
 			"couleur_texte_secondaire":"#FF000000"
 		}, 
 		{
 			"uid":"d1b1788d-adca-42a0-93a5-11eb1f518a3a",
 			"couleur_primaire":"#FF9800",
-			"couleur_primaire_variant":"#FF9800",
 			"couleur_secondaire":"#FF5722",
-			"couleur_secondaire_variant":"#FF5722",
 			"couleur_texte_primaire":"#FF000000",
 			"couleur_texte_secondaire":"#FF000000"
 		}, 
 		{
 			"uid":"db516cec-333c-42bb-a840-1831dc77d971",
 			"couleur_primaire":"#8D2143",
-			"couleur_primaire_variant":"#8D2143",
 			"couleur_secondaire":"#431020",
-			"couleur_secondaire_variant":"#431020",
 			"couleur_texte_primaire":"#FF000000",
 			"couleur_texte_secondaire":"#FF000000"
 		}, 
 		{
 			"uid":"76e10a72-e31a-483b-b220-d4ea54c9109c",
 			"couleur_primaire":"#6F4AAF",
-			"couleur_primaire_variant":"#6F4AAF",
 			"couleur_secondaire":"#3C285F",
-			"couleur_secondaire_variant":"#3C285F",
 			"couleur_texte_primaire":"#FF000000",
 			"couleur_texte_secondaire":"#FF000000"
 		}
