@@ -177,7 +177,7 @@
 			"type":"CAISSE"
 		}
 	],
-	"droits_utilisateur": [
+	"droits_utilisateurs": [
 		{
 			"uid_utilisateur":"0da0a6c6-2135-43af-9efd-35ee5d722e88",
 			"uid_regie":"544d7401-93d0-432a-8147-a0b0254562ae",
