@@ -1,209 +1,209 @@
-{ 
-	"gestionnaires": [
-		{
-			"uid":"0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-			"nom":"MAIRIE DE MANOSQUE"
-		}, 
-		{
-			"uid":"9e54dab3-fc59-4d81-830d-846088738882",
-			"nom":"MAIRIE DE PERTUIS"
-		}, 
-		{
-			"uid":"08eee10d-2385-4757-af4a-e96d7b758e58",
-			"nom":"MAIRIE D'AIX EN PROVENCE"
-		}, 
-		{
-			"uid":"462291e3-b2df-4f54-b62f-952bbe8e87f0",
-			"nom":"MAIRIE DE MARSEILLE"
-		}
-	],
-	"themes": [
-		{
-			"uid":"ddf8cc53-7956-4ff1-9208-545c02894574",
-			"couleur_primaire":"#4CAF50",
-			"couleur_secondaire":"#214B22",
-			"couleur_texte_primaire":"#FFFFFFFF",
-			"couleur_texte_secondaire":"#FFFFFFFF"
-		}, 
-		{
-			"uid":"2004b4de-1a44-4443-8fcc-ca603ddbd31e",
-			"couleur_primaire":"#2196F3",
-			"couleur_secondaire":"#0C395D",
-			"couleur_texte_primaire":"#FF000000",
-			"couleur_texte_secondaire":"#FF000000"
-		}, 
-		{
-			"uid":"d1b1788d-adca-42a0-93a5-11eb1f518a3a",
-			"couleur_primaire":"#FF9800",
-			"couleur_secondaire":"#FF5722",
-			"couleur_texte_primaire":"#FF000000",
-			"couleur_texte_secondaire":"#FF000000"
-		}, 
-		{
-			"uid":"db516cec-333c-42bb-a840-1831dc77d971",
-			"couleur_primaire":"#8D2143",
-			"couleur_secondaire":"#431020",
-			"couleur_texte_primaire":"#FF000000",
-			"couleur_texte_secondaire":"#FF000000"
-		}, 
-		{
-			"uid":"76e10a72-e31a-483b-b220-d4ea54c9109c",
-			"couleur_primaire":"#6F4AAF",
-			"couleur_secondaire":"#3C285F",
-			"couleur_texte_primaire":"#FF000000",
-			"couleur_texte_secondaire":"#FF000000"
-		}
-	],
-	"appareils": [
-		{
-			"uid":"16875d13-f2c9-4f33-942d-831dc13c9c4b",
-			"num_app":1,
-			"num_serie":1853060189
-		}, 
-		{
-			"uid":"0415df79-059f-467d-a8ba-3340b8cd5c8e",
-			"num_app":2,
-			"num_serie":1853060190
-		}, 
-		{
-			"uid":"ed233717-b7e3-47f2-9019-318333f5385f",
-			"num_app":3,
-			"num_serie":1853060191
-		}, 
-		{
-			"uid":"a78e493e-2b08-4bf5-991c-db806b21fad2",
-			"num_app":4,
-			"num_serie":1853060192
-		}, 
-		{
-			"uid":"6d546560-df71-48c3-bbbb-221b5ab4b273",
-			"num_app":5,
-			"num_serie":1853060193
-		}, 
-		{
-			"uid":"9723c5e6-fb46-45b9-b4b7-4a56f66dd189",
-			"num_app":6,
-			"num_serie":1853060194
-		} 
-	],
-	"utilisateurs": [
-		{
-			"uid":"0da0a6c6-2135-43af-9efd-35ee5d722e88",
-			"ident":"j.bertrand",
-			"nom":"BERTRAND",
-			"prenom":"Jean",
-			"mdp":"12345"
-		},
-		{
-			"uid":"e072b57a-b1bd-4957-9218-dd4cd4a514ec",
-			"ident":"b.benois",
-			"nom":"BENOIS",
-			"prenom":"Baptiste",
-			"mdp":"67890"
-		},
-		{
-			"uid":"c94b9d9d-6847-4d0c-872d-deb50d696804",
-			"ident":"c.yin",
-			"nom":"YIN",
-			"prenom":"Charles",
-			"mdp":"14785"
-		},		
-		{
-			"uid":"faff0562-bc76-4ea2-be6e-610d0695a4e4",
-			"ident":"f.leon",
-			"nom":"LEON",
-			"prenom":"Fabien",
-			"mdp":"65893"
-		},
-		{
-			"uid":"c1a05c98-7cb8-840d5-bc8d-6a868b99fc35",
-			"ident":"p.robert",
-			"nom":"ROBERT",
-			"prenom":"Patrick",
-			"mdp":"51764"
-		}
-	],
-	"regies": [
-		{
-			"uid":"b843c5b7-12ca-42e9-9876-078aac08bb80",
-			"uid_gestionnaire":"0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-			"uid_theme":"d1b1788d-adca-42a0-93a5-11eb1f518a3a",
-			"nom":"Evènementiel",
-			"type":"CAISSE"
-		}, 
-		{
-			"uid":"544d7401-93d0-432a-8147-a0b0254562ae",
-			"uid_gestionnaire":"0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-			"uid_theme":"76e10a72-e31a-483b-b220-d4ea54c9109c",
-			"nom":"Droits de Place",
-			"type":"DDP"
-		}, 
-		{
-			"uid":"01d268d8-fed9-41dd-9373-19d06059a289",
-			"uid_gestionnaire":"08eee10d-2385-4757-af4a-e96d7b758e58",
-			"uid_theme":"db516cec-333c-42bb-a840-1831dc77d971",
-			"nom":"Marchés Nocturnes",
-			"type":"DDP"
-		},  
-		{
-			"uid":"8c087a8e-5f4d-4ae9-9350-89930ac2656f",
-			"uid_gestionnaire":"08eee10d-2385-4757-af4a-e96d7b758e58",
-			"uid_theme":"76e10a72-e31a-483b-b220-d4ea54c9109c",
-			"nom":"Occupation des Terrasses",
-			"type":"ODP"
-		}, 
-		{
-			"uid":"f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-			"uid_gestionnaire":"9e54dab3-fc59-4d81-830d-846088738882",
-			"uid_theme":"ddf8cc53-7956-4ff1-9208-545c02894574",
-			"nom":"Foire et Marchés",
-			"type":"DDP"
-		}, 
-		{
-			"uid":"960615d7-67dd-4fa5-996e-9b134259de72",
-			"uid_gestionnaire":"462291e3-b2df-4f54-b62f-952bbe8e87f0",
-			"uid_theme":"d1b1788d-adca-42a0-93a5-11eb1f518a3a",
-			"nom":"Gestion des Trotinettes",
-			"type":"CAISSE"
-		}
-	],
-	"droits_utilisateurs": [
-		{
-			"uid_utilisateur":"0da0a6c6-2135-43af-9efd-35ee5d722e88",
-			"uid_regie":"544d7401-93d0-432a-8147-a0b0254562ae",
-			"si_acces_lecture":true,
-			"si_acces_ecriture":true
-		},
-		{
-			"uid_utilisateur":"0da0a6c6-2135-43af-9efd-35ee5d722e88",
-			"uid_regie":"8c087a8e-5f4d-4ae9-9350-89930ac2656f",
-			"si_acces_lecture":true,
-			"si_acces_ecriture":true
-			
-		},
-		{
-			"uid_utilisateur":"c1a05c98-7cb8-840d5-bc8d-6a868b99fc35",
-			"uid_regie":"f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-			"si_acces_lecture":true,
-			"si_acces_ecriture":true
-		},
-		{
-			"uid_utilisateur":"faff0562-bc76-4ea2-be6e-610d0695a4e4",
-			"uid_regie":"b843c5b7-12ca-42e9-9876-078aac08bb80",
-			"si_acces_lecture":true,
-			"si_acces_ecriture":true
-		},
-		{
-			"uid_utilisateur":"c1a05c98-7cb8-840d5-bc8d-6a868b99fc35",
-			"uid_regie":"544d7401-93d0-432a-8147-a0b0254562ae",
-			"si_acces_lecture":true,
-			"si_acces_ecriture":true
-		},
-		{
-			"uid_utilisateur":"c94b9d9d-6847-4d0c-872d-deb50d696804",
-			"uid_regie":"544d7401-93d0-432a-8147-a0b0254562ae",
-			"si_acces_lecture":true,
-			"si_acces_ecriture":true
-		}
-	]
- }
+{
+  "gestionnaires": [
+    {
+      "uid": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
+      "nom": "MAIRIE DE MANOSQUE"
+    },
+    {
+      "uid": "9e54dab3-fc59-4d81-830d-846088738882",
+      "nom": "MAIRIE DE PERTUIS"
+    },
+    {
+      "uid": "08eee10d-2385-4757-af4a-e96d7b758e58",
+      "nom": "MAIRIE D'AIX EN PROVENCE"
+    },
+    {
+      "uid": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
+      "nom": "MAIRIE DE MARSEILLE"
+    }
+  ],
+  "themes": [
+    {
+      "uid": "ddf8cc53-7956-4ff1-9208-545c02894574",
+      "couleur_primaire": "#4CAF50",
+      "couleur_secondaire": "#214B22",
+      "couleur_texte_primaire": "#FFFFFFFF",
+      "couleur_texte_secondaire": "#FFFFFFFF"
+    },
+    {
+      "uid": "2004b4de-1a44-4443-8fcc-ca603ddbd31e",
+      "couleur_primaire": "#2196F3",
+      "couleur_secondaire": "#0C395D",
+      "couleur_texte_primaire": "#FF000000",
+      "couleur_texte_secondaire": "#FF000000"
+    },
+    {
+      "uid": "d1b1788d-adca-42a0-93a5-11eb1f518a3a",
+      "couleur_primaire": "#FF9800",
+      "couleur_secondaire": "#FF5722",
+      "couleur_texte_primaire": "#FF000000",
+      "couleur_texte_secondaire": "#FF000000"
+    },
+    {
+      "uid": "db516cec-333c-42bb-a840-1831dc77d971",
+      "couleur_primaire": "#8D2143",
+      "couleur_secondaire": "#431020",
+      "couleur_texte_primaire": "#FF000000",
+      "couleur_texte_secondaire": "#FF000000"
+    },
+    {
+      "uid": "76e10a72-e31a-483b-b220-d4ea54c9109c",
+      "couleur_primaire": "#6F4AAF",
+      "couleur_secondaire": "#3C285F",
+      "couleur_texte_primaire": "#FF000000",
+      "couleur_texte_secondaire": "#FF000000"
+    }
+  ],
+  "appareils": [
+    {
+      "uid": "16875d13-f2c9-4f33-942d-831dc13c9c4b",
+      "num_app": 1,
+      "num_serie": 1853060189
+    },
+    {
+      "uid": "0415df79-059f-467d-a8ba-3340b8cd5c8e",
+      "num_app": 2,
+      "num_serie": 1853060190
+    },
+    {
+      "uid": "ed233717-b7e3-47f2-9019-318333f5385f",
+      "num_app": 3,
+      "num_serie": 1853060191
+    },
+    {
+      "uid": "a78e493e-2b08-4bf5-991c-db806b21fad2",
+      "num_app": 4,
+      "num_serie": 1853060192
+    },
+    {
+      "uid": "6d546560-df71-48c3-bbbb-221b5ab4b273",
+      "num_app": 5,
+      "num_serie": 1853060193
+    },
+    {
+      "uid": "9723c5e6-fb46-45b9-b4b7-4a56f66dd189",
+      "num_app": 6,
+      "num_serie": 1853060194
+    }
+  ],
+  "utilisateurs": [
+    {
+      "uid": "0da0a6c6-2135-43af-9efd-35ee5d722e88",
+      "ident": "j.bertrand",
+      "nom": "BERTRAND",
+      "prenom": "Jean",
+      "mdp": "12345",
+      "droits": [
+        {
+          "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+        {
+          "uid_regie": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        }
+      ]
+    },
+    {
+      "uid": "e072b57a-b1bd-4957-9218-dd4cd4a514ec",
+      "ident": "b.benois",
+      "nom": "BENOIS",
+      "prenom": "Baptiste",
+      "mdp": "67890",
+      "droits": []
+    },
+    {
+      "uid": "c94b9d9d-6847-4d0c-872d-deb50d696804",
+      "ident": "c.yin",
+      "nom": "YIN",
+      "prenom": "Charles",
+      "mdp": "14785",
+      "droits": [
+        {
+          "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        }
+      ]
+    },
+    {
+      "uid": "faff0562-bc76-4ea2-be6e-610d0695a4e4",
+      "ident": "f.leon",
+      "nom": "LEON",
+      "prenom": "Fabien",
+      "mdp": "65893",
+      "droits": [
+        {
+          "uid_regie": "b843c5b7-12ca-42e9-9876-078aac08bb80",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        }
+      ]
+    },
+    {
+      "uid": "c1a05c98-7cb8-840d5-bc8d-6a868b99fc35",
+      "ident": "p.robert",
+      "nom": "ROBERT",
+      "prenom": "Patrick",
+      "mdp": "51764",
+      "droits": [
+        {
+          "uid_regie": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+        {
+          "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        }
+      ]
+    }
+  ],
+  "regies": [
+    {
+      "uid": "b843c5b7-12ca-42e9-9876-078aac08bb80",
+      "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
+      "uid_theme": "d1b1788d-adca-42a0-93a5-11eb1f518a3a",
+      "nom": "Evènementiel",
+      "type": "CAISSE"
+    },
+    {
+      "uid": "544d7401-93d0-432a-8147-a0b0254562ae",
+      "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
+      "uid_theme": "76e10a72-e31a-483b-b220-d4ea54c9109c",
+      "nom": "Droits de Place",
+      "type": "DDP"
+    },
+    {
+      "uid": "01d268d8-fed9-41dd-9373-19d06059a289",
+      "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
+      "uid_theme": "db516cec-333c-42bb-a840-1831dc77d971",
+      "nom": "Marchés Nocturnes",
+      "type": "DDP"
+    },
+    {
+      "uid": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
+      "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
+      "uid_theme": "76e10a72-e31a-483b-b220-d4ea54c9109c",
+      "nom": "Occupation des Terrasses",
+      "type": "ODP"
+    },
+    {
+      "uid": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "uid_gestionnaire": "9e54dab3-fc59-4d81-830d-846088738882",
+      "uid_theme": "ddf8cc53-7956-4ff1-9208-545c02894574",
+      "nom": "Foire et Marchés",
+      "type": "DDP"
+    },
+    {
+      "uid": "960615d7-67dd-4fa5-996e-9b134259de72",
+      "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
+      "uid_theme": "d1b1788d-adca-42a0-93a5-11eb1f518a3a",
+      "nom": "Gestion des Trotinettes",
+      "type": "CAISSE"
+    }
+  ]
+}
