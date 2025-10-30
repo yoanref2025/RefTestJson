@@ -17,43 +17,6 @@
       "nom": "MAIRIE DE MARSEILLE"
     }
   ],
-  "themes": [
-    {
-      "uid": "ddf8cc53-7956-4ff1-9208-545c02894574",
-      "couleur_primaire": "#4CAF50",
-      "couleur_secondaire": "#214B22",
-      "couleur_texte_primaire": "#FFFFFFFF",
-      "couleur_texte_secondaire": "#FFFFFFFF"
-    },
-    {
-      "uid": "2004b4de-1a44-4443-8fcc-ca603ddbd31e",
-      "couleur_primaire": "#2196F3",
-      "couleur_secondaire": "#0C395D",
-      "couleur_texte_primaire": "#FF000000",
-      "couleur_texte_secondaire": "#FF000000"
-    },
-    {
-      "uid": "d1b1788d-adca-42a0-93a5-11eb1f518a3a",
-      "couleur_primaire": "#FF9800",
-      "couleur_secondaire": "#FF5722",
-      "couleur_texte_primaire": "#FF000000",
-      "couleur_texte_secondaire": "#FF000000"
-    },
-    {
-      "uid": "db516cec-333c-42bb-a840-1831dc77d971",
-      "couleur_primaire": "#8D2143",
-      "couleur_secondaire": "#431020",
-      "couleur_texte_primaire": "#FF000000",
-      "couleur_texte_secondaire": "#FF000000"
-    },
-    {
-      "uid": "76e10a72-e31a-483b-b220-d4ea54c9109c",
-      "couleur_primaire": "#6F4AAF",
-      "couleur_secondaire": "#3C285F",
-      "couleur_texte_primaire": "#FF000000",
-      "couleur_texte_secondaire": "#FF000000"
-    }
-  ],
   "appareils": [
     {
       "uid": "16875d13-f2c9-4f33-942d-831dc13c9c4b",
@@ -166,42 +129,42 @@
     {
       "uid": "b843c5b7-12ca-42e9-9876-078aac08bb80",
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-      "uid_theme": "d1b1788d-adca-42a0-93a5-11eb1f518a3a",
+      "enum_theme": "BLUE",
       "nom": "Evènementiel",
       "type": "CAISSE"
     },
     {
       "uid": "544d7401-93d0-432a-8147-a0b0254562ae",
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-      "uid_theme": "76e10a72-e31a-483b-b220-d4ea54c9109c",
+      "enum_theme": "VERT",
       "nom": "Droits de Place",
       "type": "DDP"
     },
     {
       "uid": "01d268d8-fed9-41dd-9373-19d06059a289",
       "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
-      "uid_theme": "db516cec-333c-42bb-a840-1831dc77d971",
+      "enum_theme": "VERT",
       "nom": "Marchés Nocturnes",
       "type": "DDP"
     },
     {
       "uid": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
       "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
-      "uid_theme": "76e10a72-e31a-483b-b220-d4ea54c9109c",
+      "enum_theme": "ORANGE",
       "nom": "Occupation des Terrasses",
       "type": "ODP"
     },
     {
       "uid": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
       "uid_gestionnaire": "9e54dab3-fc59-4d81-830d-846088738882",
-      "uid_theme": "ddf8cc53-7956-4ff1-9208-545c02894574",
+      "enum_theme": "ORANGE",
       "nom": "Foire et Marchés",
       "type": "DDP"
     },
     {
       "uid": "960615d7-67dd-4fa5-996e-9b134259de72",
       "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
-      "uid_theme": "d1b1788d-adca-42a0-93a5-11eb1f518a3a",
+      "enum_theme": "BLUE",
       "nom": "Gestion des Trotinettes",
       "type": "CAISSE"
     }
