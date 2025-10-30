@@ -168,5 +168,42 @@
       "nom": "Gestion des Trotinettes",
       "type": "CAISSE"
     }
+  ],
+  "lieux": [
+    {
+      "uid": "fb7d493d-f97d-4e3d-8eca-86c6676335a5",
+      "uid_regie": "b843c5b7-12ca-42e9-9876-078aac08bb80",
+      "nom": "Foire de la Saucisse"
+    },
+    {
+      "uid": "22adf769-670b-4196-b411-e9618983a088",
+      "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
+      "nom": "Marché du Dimanche"
+    },
+    {
+     "uid": "4ad839c8-3176-47dd-8750-7d23a917984e",
+      "uid_regie": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
+      "nom": "Foire de la Saucisse"
+    },
+    {
+     "uid": "2d878122-076e-4263-a6b2-0800bcaf62ac",
+      "uid_regie": "01d268d8-fed9-41dd-9373-19d06059a289",
+      "nom": "Nocture du Samedi"
+    },
+    {
+    "uid": "bc657231-9599-442e-9459-486efca174a0",
+      "uid_regie": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "nom": "Marché du Lundi"
+    },
+    {
+    "uid": "bf99d611-c2bc-466f-86d4-d775c9eb4670",
+      "uid_regie": "960615d7-67dd-4fa5-996e-9b134259de72",
+      "nom": "Stockage Centre"
+    },
+	  {
+	  "uid": "3d631d4d-5d94-42e6-a960-c608068b2549",
+      "uid_regie": "960615d7-67dd-4fa5-996e-9b134259de72",
+      "nom": "Stockage Périphérie "
+    }
   ]
 }
