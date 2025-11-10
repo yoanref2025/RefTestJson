@@ -20,41 +20,46 @@
   "appareils": [
     {
       "uid": "16875d13-f2c9-4f33-942d-831dc13c9c4b",
-      "num_app": 1,
-      "num_serie": 1853060189
+	  "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
+      "num_app": 1
     },
     {
       "uid": "0415df79-059f-467d-a8ba-3340b8cd5c8e",
-      "num_app": 2,
-      "num_serie": 1853060190
+	  "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
+      "num_app": 2
     },
     {
       "uid": "ed233717-b7e3-47f2-9019-318333f5385f",
-      "num_app": 3,
-      "num_serie": 1853060191
+	  "uid_gestionnaire": "9e54dab3-fc59-4d81-830d-846088738882",
+      "num_app": 1
     },
     {
       "uid": "a78e493e-2b08-4bf5-991c-db806b21fad2",
-      "num_app": 4,
-      "num_serie": 1853060192
+	  "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
+      "num_app": 1
     },
     {
       "uid": "6d546560-df71-48c3-bbbb-221b5ab4b273",
-      "num_app": 5,
-      "num_serie": 1853060193
+	  "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
+      "num_app": 2
     },
     {
       "uid": "9723c5e6-fb46-45b9-b4b7-4a56f66dd189",
-      "num_app": 6,
-      "num_serie": 1853060194
+	  "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
+      "num_app": 3
+    },
+    {
+      "uid": "bdc9297a-0e12-46ab-b493-8d671841c55f",
+	  "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
+      "num_app": 1
     }
   ],
   "utilisateurs": [
     {
       "uid": "0da0a6c6-2135-43af-9efd-35ee5d722e88",
-      "ident": "j.bertrand",
-      "nom": "BERTRAND",
-      "prenom": "Jean",
+      "ident": "b.clouet",
+      "nom": "CLOUET",
+      "prenom": "Bénédicte",
       "mdp": "12345",
       "droits": [
         {
@@ -71,17 +76,27 @@
     },
     {
       "uid": "e072b57a-b1bd-4957-9218-dd4cd4a514ec",
-      "ident": "b.benois",
-      "nom": "BENOIS",
-      "prenom": "Baptiste",
+      "ident": "g.bailleul",
+      "nom": "BAILLEUL",
+      "prenom": "Grégoire",
       "mdp": "67890",
-      "droits": []
+      "droits": [ {
+          "uid_regie": "960615d7-67dd-4fa5-996e-9b134259de72",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid_regie": "01d268d8-fed9-41dd-9373-19d06059a289",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        }
+	  ]
     },
     {
       "uid": "c94b9d9d-6847-4d0c-872d-deb50d696804",
-      "ident": "c.yin",
-      "nom": "YIN",
-      "prenom": "Charles",
+      "ident": "r.ferrant",
+      "nom": "FERRANT",
+      "prenom": "Rémi",
       "mdp": "14785",
       "droits": [
         {
@@ -93,9 +108,9 @@
     },
     {
       "uid": "faff0562-bc76-4ea2-be6e-610d0695a4e4",
-      "ident": "f.leon",
-      "nom": "LEON",
-      "prenom": "Fabien",
+      "ident": "e.proy",
+      "nom": "PROY",
+      "prenom": "Eric",
       "mdp": "65893",
       "droits": [
         {
@@ -107,9 +122,9 @@
     },
     {
       "uid": "c1a05c98-7cb8-840d5-bc8d-6a868b99fc35",
-      "ident": "p.robert",
-      "nom": "ROBERT",
-      "prenom": "Patrick",
+      "ident": "d.bailleul",
+      "nom": "BAILLEUL",
+      "prenom": "Denis",
       "mdp": "51764",
       "droits": [
         {
@@ -123,13 +138,21 @@
           "si_acces_ecriture": true
         }
       ]
+    },
+    {
+      "uid": "202a1f33-b554-4fb7-b1e2-824eca44cc63",
+      "ident": "g.pasdedroits",
+      "nom": "PASDEDROITS",
+      "prenom": "Geylan",
+      "mdp": "75129",
+      "droits": []
     }
   ],
   "regies": [
     {
       "uid": "b843c5b7-12ca-42e9-9876-078aac08bb80",
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-      "enum_theme": "BLUE",
+      "enum_theme": "BLEU",
       "nom": "Evènementiel",
       "type": "CAISSE"
     },
@@ -158,13 +181,13 @@
       "uid": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
       "uid_gestionnaire": "9e54dab3-fc59-4d81-830d-846088738882",
       "enum_theme": "ORANGE",
-      "nom": "Foire et Marchés",
+      "nom": "Foires et Marchés",
       "type": "DDP"
     },
     {
       "uid": "960615d7-67dd-4fa5-996e-9b134259de72",
       "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
-      "enum_theme": "BLUE",
+      "enum_theme": "BLEU",
       "nom": "Gestion des Trotinettes",
       "type": "CAISSE"
     }
@@ -183,7 +206,7 @@
     {
      "uid": "4ad839c8-3176-47dd-8750-7d23a917984e",
       "uid_regie": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
-      "nom": "Foire de la Saucisse"
+      "nom": "Foire aux Fruits"
     },
     {
      "uid": "2d878122-076e-4263-a6b2-0800bcaf62ac",
@@ -203,7 +226,7 @@
 	  {
 	  "uid": "3d631d4d-5d94-42e6-a960-c608068b2549",
       "uid_regie": "960615d7-67dd-4fa5-996e-9b134259de72",
-      "nom": "Stockage Périphérie "
+      "nom": "Stockage Périphérie"
     }
   ]
 }
