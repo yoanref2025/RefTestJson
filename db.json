@@ -105,7 +105,7 @@
       "mdp": "14785",
       "droits": [
         {
-          "uid" : "b7d0d3fd-c99c-4ff3-9678-8b812df246c5"
+          "uid" : "b7d0d3fd-c99c-4ff3-9678-8b812df246c5",
           "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
           "si_acces_lecture": true,
           "si_acces_ecriture": true
