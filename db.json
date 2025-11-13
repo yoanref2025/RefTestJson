@@ -152,44 +152,44 @@
     {
       "uid": "b843c5b7-12ca-42e9-9876-078aac08bb80",
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-      "enum_theme": "BLEU",
       "nom": "Evènementiel",
-      "type": "CAISSE"
+      "enum_type_regie": "CAISSE",
+	  "enum_type_theme": "BLEU"
     },
     {
       "uid": "544d7401-93d0-432a-8147-a0b0254562ae",
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-      "enum_theme": "VERT",
       "nom": "Droits de Place",
-      "type": "DDP"
+      "enum_type_regie": "DDP",
+	  "enum_type_theme": "VERT"
     },
     {
       "uid": "01d268d8-fed9-41dd-9373-19d06059a289",
       "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
-      "enum_theme": "VERT",
       "nom": "Marchés Nocturnes",
-      "type": "DDP"
+      "enum_type_regie": "DDP",
+	  "enum_type_theme": "VERT"
     },
     {
       "uid": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
       "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
-      "enum_theme": "ORANGE",
       "nom": "Occupation des Terrasses",
-      "type": "ODP"
+      "enum_type_regie": "ODP",
+      "enum_type_theme": "ORANGE"
     },
     {
       "uid": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
       "uid_gestionnaire": "9e54dab3-fc59-4d81-830d-846088738882",
-      "enum_theme": "ORANGE",
       "nom": "Foires et Marchés",
-      "type": "DDP"
+      "enum_type_regie": "DDP",
+      "enum_type_theme": "ORANGE"
     },
     {
       "uid": "960615d7-67dd-4fa5-996e-9b134259de72",
       "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
-      "enum_theme": "BLEU",
       "nom": "Gestion des Trotinettes",
-      "type": "CAISSE"
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "BLEU"
     }
   ],
   "lieux": [
