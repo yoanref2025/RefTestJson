@@ -63,7 +63,7 @@
       "mdp": "12345",
       "droits": [
         {
-          "uid": "90ab0607-cc68-4671-97dc-cf6f88288acd"
+          "uid": "90ab0607-cc68-4671-97dc-cf6f88288acd",
           "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
           "si_acces_lecture": true,
           "si_acces_ecriture": true
