@@ -109,6 +109,12 @@
           "uid_regie": "544d7401-93d0-432a-8147-a0b0254562ae",
           "si_acces_lecture": true,
           "si_acces_ecriture": true
+        },
+		 {
+          "uid" : "9c79a89a-ab3a-4f4f-8857-52ac94189bec",
+          "uid_regie": "b843c5b7-12ca-42e9-9876-078aac08bb80",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
         }
       ]
     },
