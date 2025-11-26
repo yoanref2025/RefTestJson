@@ -15,6 +15,10 @@
     {
       "uid": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
       "nom": "MAIRIE DE MARSEILLE"
+    },
+    {
+      "uid": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "MAIRIE DE WASQUEHAL"
     }
   ],
   "appareils": [
@@ -51,6 +55,11 @@
     {
       "uid": "bdc9297a-0e12-46ab-b493-8d671841c55f",
 	  "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
+      "num_app":1
+    },
+    {
+      "uid": "0a99de21-8625-4b9a-9223-6e66398487b4",
+	  "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
       "num_app":1
     }
   ],
@@ -169,42 +178,119 @@
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
       "nom": "Evènementiel",
       "enum_type_regie": "CAISSE",
-	  "enum_type_theme": "BLEU"
+	  "enum_type_theme": "BLEU_CLAIR"
     },
     {
       "uid": "544d7401-93d0-432a-8147-a0b0254562ae",
       "uid_gestionnaire": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
       "nom": "Droits de Place",
       "enum_type_regie": "DDP",
-	  "enum_type_theme": "VERT"
+	  "enum_type_theme": "VERT_CLAIR"
     },
     {
       "uid": "01d268d8-fed9-41dd-9373-19d06059a289",
       "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
       "nom": "Marchés Nocturnes",
       "enum_type_regie": "DDP",
-	  "enum_type_theme": "VERT"
+	  "enum_type_theme": "VERT_FONCE"
     },
     {
       "uid": "8c087a8e-5f4d-4ae9-9350-89930ac2656f",
       "uid_gestionnaire": "08eee10d-2385-4757-af4a-e96d7b758e58",
       "nom": "Occupation des Terrasses",
       "enum_type_regie": "ODP",
-      "enum_type_theme": "ORANGE"
+      "enum_type_theme": "ORANGE_FONCE"
     },
     {
       "uid": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
       "uid_gestionnaire": "9e54dab3-fc59-4d81-830d-846088738882",
       "nom": "Foires et Marchés",
       "enum_type_regie": "DDP",
-      "enum_type_theme": "ORANGE"
+      "enum_type_theme": "ORANGE_CLAIR"
     },
     {
       "uid": "960615d7-67dd-4fa5-996e-9b134259de72",
       "uid_gestionnaire": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
       "nom": "Gestion des Trotinettes",
       "enum_type_regie": "CAISSE",
-      "enum_type_theme": "BLEU"
+      "enum_type_theme": "BLEU_FONCE"
+    },
+    {
+      "uid": "74888f93-35ec-4d62-b4cd-922c53b4bf0c",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Musée centre",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "JAUNE"
+    },
+    {
+      "uid": "5e0994d9-705c-47d4-a8be-675107b0af6f",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Piscine centre",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "BLEU_CLAIR"
+    },
+    {
+      "uid": "43f0ff08-54f7-4b43-9d4e-81d6fcaed7d8",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Parkings",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "MARRON_FONCE"
+    },
+    {
+      "uid": "e5061ada-c158-4ffa-b3ee-00538b410bf6",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Campings",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "VERT_FONCE"
+    },
+    {
+      "uid": "6a0dcc99-25a9-4419-b49c-b49f9f22e5b4",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Evènements centre",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "ROSE"
+    },
+    {
+      "uid": "214da268-01df-485c-86e5-c583d1c985f5",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Marchés",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "ORANGE_FONCE"
+    },
+    {
+      "uid": "7b29fb95-3447-4e2e-8b01-f6488275df65",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Brocante",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "VIOLET"
+    },
+    {
+      "uid": "087f407f-5b4e-4903-a0a1-f82617e51466",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Musée village",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "MARRON_CLAIR"
+    },
+    {
+      "uid": "b6a82983-cc6d-4d7a-b014-3ff6f8f733d3",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Piscine village",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "BLEU_CLAIR"
+    },
+    {
+      "uid": "f13b7f49-885e-43ab-b22d-823eeeac7bfd",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Terrasse",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "ORANGE_CLAIR"
+    },
+    {
+      "uid": "4f75b01b-5a4b-4c7b-b49c-157518506975",
+      "uid_gestionnaire": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
+      "nom": "Evènements village",
+      "enum_type_regie": "CAISSE",
+      "enum_type_theme": "VERT_CLAIR"
     }
   ],
   "lieux": [
@@ -262,11 +348,77 @@
 	  "code":"SC",
       "nom": "Stockage Centre"
     },
-	  {
+	{
 	  "uid": "3d631d4d-5d94-42e6-a960-c608068b2549",
       "uid_regie": "960615d7-67dd-4fa5-996e-9b134259de72",
 	  "code":"SP",
       "nom": "Stockage Périphérie"
-    }
+    },
+	{
+	  "uid": "f0a5afbe-c586-4096-bbb7-49cc32b2c9cf",
+	  "uid_regie": "74888f93-35ec-4d62-b4cd-922c53b4bf0c",
+	  "code": "MCE",
+	  "nom": "Musée centre"
+	},
+	{
+	  "uid": "aaf8b9d4-cde0-45d5-b59c-bc0f7a1e3a81",
+	  "uid_regie": "5e0994d9-785c-47d4-a8be-05751070baf6f",
+	  "code": "PCE",
+	  "nom": "Piscine centre"
+	},
+	{
+	  "uid": "779cb64f-9115-4f2a-b0e5-1672e1332ba6d",
+	  "uid_regie": "43fbff08-54f7-4b43-9d4e-81dffc4aed78",
+	  "code": "PARK",
+	  "nom": "Parkings"
+	},
+	{
+	  "uid": "92995d48-12a5-45c5-869a-f4f146ffa010",
+	  "uid_regie": "e5961ada-c158-4ffa-b3ee-e053b401b0f6",
+	  "code": "CAMP",
+	  "nom": "Campings"
+	},
+	{
+	  "uid": "bc183435-588d-470e-98e8-cce5ab912e6c",
+	  "uid_regie": "6a0dcc99-25a9-4419-b496-b0499f22e5b4",
+	  "code": "ECE",
+	  "nom": "Événements centre"
+	},
+	{
+	  "uid": "9a025a8f-35f7-4530-99ea-7742b254fb6a",
+	  "uid_regie": "214da268-d10f-485c-8e65-c5831c985ff5",
+	  "code": "MAR",
+	  "nom": "Marchés"
+	},
+	{
+	  "uid": "fcedfe94-8527-4d4f-91d9-b0127e694d85",
+	  "uid_regie": "7b2f9b95-3447-4e2e-8b81-f6488275df65",
+	  "code": "BRO",
+	  "nom": "Brocante"
+	},
+	{
+	  "uid": "b24106c2-6514-42bf-8689-b811e527e052c",
+	  "uid_regie": "087f440f-58a2-4903-a0f1-c826175e1466",
+	  "code": "MVI",
+	  "nom": "Musée village"
+	},
+	{
+	  "uid": "2aab9f0f-9bda-47fa-b4d3-f9094f399e08",
+	  "uid_regie": "b6a82893-ccdd-447a-b014-3ff6f8f7733d",
+	  "code": "PVI",
+	  "nom": "Piscine village"
+	},
+	{
+	  "uid": "71121da1-9daf-4cc6-aad3-1f38695aac8c",
+	  "uid_regie": "f13bf749-885e-43ab-b22d-82eeeac7bfd",
+	  "code": "TER",
+	  "nom": "Terrasse"
+	},
+	{
+	  "uid": "50e6bdba-981d-4827-8d12-391ca27652a",
+	  "uid_regie": "4f75bb1b-5a9a-46b7-aafc-b571518e09575",
+	  "code": "EVI",
+	  "nom": "Événements village"
+	}
   ]
 }
