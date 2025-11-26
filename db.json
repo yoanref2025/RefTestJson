@@ -85,14 +85,14 @@
         }
       ]
     },
-    {
+     {
       "uid": "e072b57a-b1bd-4957-9218-dd4cd4a514ec",
       "ident": "g.bailleul",
       "nom": "BAILLEUL",
       "prenom": "Grégoire",
       "mdp": "67890",
       "droits": [ 
-	  {
+		{
           "uid": "618e109e-670e-470f-b76e-1fa685bf610b",
           "uid_regie": "960615d7-67dd-4fa5-996e-9b134259de72",
           "si_acces_lecture": true,
@@ -103,7 +103,73 @@
           "uid_regie": "01d268d8-fed9-41dd-9373-19d06059a289",
           "si_acces_lecture": true,
           "si_acces_ecriture": true
-        }
+        },
+		 {
+          "uid": "5d8680e2-da6e-47d2-944c-6db40e069524",
+          "uid_regie": "74888f93-35ec-4d62-b4cd-922c53b4bf0c",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "96e6c7c3-6208-45b0-918c-ad5e490e1433",
+          "uid_regie": "5e0994d9-705c-47d4-a8be-675107b0af6f",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "d84857f3-5151-42df-879a-9fbf90fb71e2",
+          "uid_regie": "43f0ff08-54f7-4b43-9d4e-81d6fcaed7d8",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "fd84b575-1d2c-444c-9387-fd08fb7f559e",
+          "uid_regie": "e5061ada-c158-4ffa-b3ee-00538b410bf6",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "dd550268-4b64-4ba1-9d82-4f108dea6e84",
+          "uid_regie": "6a0dcc99-25a9-4419-b49c-b49f9f22e5b4",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "6f0ec5ab-be89-4cdd-abf5-f22fa3a1cefc",
+          "uid_regie": "214da268-01df-485c-86e5-c583d1c985f5",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "277f358f-a505-4bfd-bb45-44de06d2f945",
+          "uid_regie": "7b29fb95-3447-4e2e-8b01-f6488275df65",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "1ea6b444-84c7-4d3c-bf77-b2b77f8cf995",
+          "uid_regie": "087f407f-5b4e-4903-a0a1-f82617e51466",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "40a9cfa3-b753-4471-b721-8f8fd42f1c4c",
+          "uid_regie": "b6a82983-cc6d-4d7a-b014-3ff6f8f733d3",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "cfa6652d-a61b-4588-bc14-0da59447190d",
+          "uid_regie": "f13b7f49-885e-43ab-b22d-823eeeac7bfd",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+        },
+		 {
+          "uid": "fb62d567-87ab-4198-9bb0-a089b81244c4",
+          "uid_regie": "4f75b01b-5a4b-4c7b-b49c-157518506975",
+          "si_acces_lecture": true,
+          "si_acces_ecriture": true
+         }
 	  ]
     },
     {
@@ -361,32 +427,32 @@
 	  "nom": "Musée centre"
 	},
 	{
-	  "uid": "aaf8b9d4-cde0-45d5-b59c-bc0f7a1e3a81",
-	  "uid_regie": "5e0994d9-785c-47d4-a8be-05751070baf6f",
+	  "uid": "aaf8b9d4-dc0b-45d5-b505-9c07fa1e3a81",
+	  "uid_regie": "5e0994d9-705c-47d4-a8be-675107b0af6f",
 	  "code": "PCE",
 	  "nom": "Piscine centre"
 	},
 	{
-	  "uid": "779cb64f-9115-4f2a-b0e5-1672e1332ba6d",
-	  "uid_regie": "43fbff08-54f7-4b43-9d4e-81dffc4aed78",
+	  "uid": "779cb64f-9115-42ea-b0e5-167ea132ba6d",
+	  "uid_regie": "43f0ff08-54f7-4b43-9d4e-81d6fcaed7d8",
 	  "code": "PARK",
 	  "nom": "Parkings"
 	},
 	{
-	  "uid": "92995d48-12a5-45c5-869a-f4f146ffa010",
-	  "uid_regie": "e5961ada-c158-4ffa-b3ee-e053b401b0f6",
+	  "uid": "92995d48-12a5-45c5-869a-f4fa146ffa10",
+	  "uid_regie": "e5061ada-c158-4ffa-b3ee-00538b410bf6",
 	  "code": "CAMP",
 	  "nom": "Campings"
 	},
 	{
 	  "uid": "bc183435-588d-470e-98e8-cce5ab912e6c",
-	  "uid_regie": "6a0dcc99-25a9-4419-b496-b0499f22e5b4",
+	  "uid_regie": "6a0dcc99-25a9-4419-b49c-b49f9f22e5b4",
 	  "code": "ECE",
 	  "nom": "Événements centre"
 	},
 	{
 	  "uid": "9a025a8f-35f7-4530-99ea-7742b254fb6a",
-	  "uid_regie": "214da268-d10f-485c-8e65-c5831c985ff5",
+	  "uid_regie": "214da268-01df-485c-86e5-c583d1c985f5",
 	  "code": "MAR",
 	  "nom": "Marchés"
 	},
@@ -397,26 +463,26 @@
 	  "nom": "Brocante"
 	},
 	{
-	  "uid": "b24106c2-6514-42bf-8689-b811e527e052c",
-	  "uid_regie": "087f440f-58a2-4903-a0f1-c826175e1466",
+	  "uid": "b24106c2-6514-42bf-886a-9b1f527c052c",
+	  "uid_regie": "087f407f-5b4e-4903-a0a1-f82617e51466",
 	  "code": "MVI",
 	  "nom": "Musée village"
 	},
 	{
-	  "uid": "2aab9f0f-9bda-47fa-b4d3-f9094f399e08",
-	  "uid_regie": "b6a82893-ccdd-447a-b014-3ff6f8f7733d",
+	  "uid": "2aab3f0f-9bda-47fa-b4d3-f09d94f939e8",
+	  "uid_regie": "b6a82983-cc6d-4d7a-b014-3ff6f8f733d3",
 	  "code": "PVI",
 	  "nom": "Piscine village"
 	},
 	{
-	  "uid": "71121da1-9daf-4cc6-aad3-1f38695aac8c",
-	  "uid_regie": "f13bf749-885e-43ab-b22d-82eeeac7bfd",
+	  "uid": "71121da1-9daf-4cc6-ada3-1f38695ac48c",
+	  "uid_regie": "f13b7f49-885e-43ab-b22d-823eeeac7bfd",
 	  "code": "TER",
 	  "nom": "Terrasse"
 	},
 	{
-	  "uid": "50e6bdba-981d-4827-8d12-391ca27652a",
-	  "uid_regie": "4f75bb1b-5a9a-46b7-aafc-b571518e09575",
+	  "uid": "50e6abda-901d-48a1-8167-239c1a27652a",
+	  "uid_regie": "4f75b01b-5a4b-4c7b-b49c-157518506975",
 	  "code": "EVI",
 	  "nom": "Événements village"
 	}
