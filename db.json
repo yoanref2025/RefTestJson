@@ -2,32 +2,32 @@
   "gestionnaires": [
     {
       "uid": "0bb708e8-f19d-40cd-afc9-09a7c84462ed",
-	  "enum_type_gestionnaire": "VILLE",
+	  "t_gestionnaire": "VILLE",
       "nom": "MAIRIE DE MANOSQUE"
     },
     {
       "uid": "9e54dab3-fc59-4d81-830d-846088738882",
-	  "enum_type_gestionnaire":  "VILLE",
+	  "t_gestionnaire":  "VILLE",
       "nom": "MAIRIE DE PERTUIS"
     },
     {
       "uid": "08eee10d-2385-4757-af4a-e96d7b758e58",
-	  "enum_type_gestionnaire":  "VILLE",
+	  "t_gestionnaire":  "VILLE",
       "nom": "MAIRIE D'AIX EN PROVENCE"
     },
     {
       "uid": "462291e3-b2df-4f54-b62f-952bbe8e87f0",
-	  "enum_type_gestionnaire":  "VILLE",
+	  "t_gestionnaire":  "VILLE",
       "nom": "MAIRIE DE MARSEILLE"
     },
     {
       "uid": "f6130bd3-b7a3-4a62-bec4-8763c89e6731",
-	  "enum_type_gestionnaire":  "VILLE",
+	  "t_gestionnaire":  "VILLE",
       "nom": "MAIRIE DE WASQUEHAL"
     },
     {
       "uid": "1ba5310d-e1fa-43fd-8607-ecee9eac6516",
-	  "enum_type_gestionnaire": "CONCESS",
+	  "t_gestionnaire": "CONCESS",
       "nom": "SOCIETE EGS"
     }
   ]
